@@ -1,38 +1,38 @@
-const UTS = {};
+const GRAM = {};
 
-UTS.chess = {
+GRAM.chess = {
   pieces: {
     pawn: {
-      label: "UTS.Chess.Pieces.P",
+      label: "GRAM.Chess.Pieces.P",
       abbr: "P",
       value: 1,
     },
     knight: {
-      label: "UTS.Chess.Pieces.K",
+      label: "GRAM.Chess.Pieces.K",
       abbr: "N",
       value: 3,
     },
     bishop: {
-      label: "UTS.Chess.Pieces.B",
+      label: "GRAM.Chess.Pieces.B",
       abbr: "B",
       value: 3,
     },
     rook: {
-      label: "UTS.Chess.Pieces.R",
+      label: "GRAM.Chess.Pieces.R",
       abbr: "R",
       value: 5,
     },
     queen: {
-      label: "UTS.Chess.Pieces.Q",
+      label: "GRAM.Chess.Pieces.Q",
       abbr: "Q",
       value: 9,
     },
     king: {
-      label: "UTS.Chess.Pieces.K",
+      label: "GRAM.Chess.Pieces.K",
       abbr: "K",
       value: Infinity,
     },
   },
 };
 
-export default UTS;
+export default GRAM;

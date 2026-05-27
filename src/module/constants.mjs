@@ -1,4 +1,4 @@
-export const systemID = "universal-tabletop-system";
+export const systemID = "gram-system";
 
 /**
  * Translates repository paths to Foundry Data paths.

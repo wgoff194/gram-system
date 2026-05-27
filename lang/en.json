@@ -1,5 +1,5 @@
 {
-  "UTS": {
+  "GRAM": {
     "Chess": {
       "Pieces": {
         "P": "Pawn",
@@ -33,8 +33,8 @@
     },
     "Sheets": {
       "Labels": {
-        "ActorSheet": "Default UTS Actor Sheet",
-        "ItemSheet": "Default UTS Item Sheet"
+        "ActorSheet": "Default GRAM Actor Sheet",
+        "ItemSheet": "Default GRAM Item Sheet"
       },
       "Tabs": {
         "properties": "Properties",

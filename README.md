@@ -1,3 +1,3 @@
 # Gram TTRPG System
 
-Base code fored from `The Universal Tabletop System` for FoundryVTT, by Metamorphic Digital.
+Base code forked from `The Universal Tabletop System` for FoundryVTT, by Metamorphic Digital.

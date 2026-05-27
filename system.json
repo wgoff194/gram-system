@@ -1,21 +1,27 @@
 {
-  "id": "universal-tabletop-system",
-  "title": "Universal Tabletop System",
-  "description": "The Universal Tabletop System for FoundryVTT, by Metamorphic Digital.",
+  "id": "gram-system",
+  "title": "GRAM Core System",
+  "description": "The Core System for GRAM",
+  "version": "DEVELOP",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
   "authors": [
     {
-      "name": "Joseph M.",
-      "discord": "chaosos"
+      "name": "Fish",
+      "title": "Gram Creator"
     },
     {
-      "name": "Zhell",
-      "discord": "zhell9201"
+      "name": "WGoff194",
+      "title": "Gram Coder"
     }
   ],
-  "url": "https://github.com/MetaMorphic-Digital/universal-tabletop-system",
+  "url": "https://github.com/wgoff194/gram-system",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "https://github.com/MetaMorphic-Digital/universal-tabletop-system/issues",
+  "bugs": "https://github.com/wgoff194/gram-system/issues",
   "changelog": "CHANGELOG.md",
   "media": [
     {
@@ -29,8 +35,12 @@
     "minimum": "13.351",
     "verified": "14"
   },
-  "esmodules": ["uts.mjs"],
-  "styles": ["uts.css"],
+  "esmodules": [
+    "gram.mjs"
+  ],
+  "styles": [
+    "gram.css"
+  ],
   "languages": [
     {
       "lang": "en",
@@ -45,7 +55,7 @@
   ],
   "packs": [],
   "packFolders": [],
-  "manifest": "https://github.com/MetaMorphic-Digital/universal-tabletop-system/releases/latest/download/system.json",
+  "manifest": "https://github.com/wgoff194/gram-system/releases/latest/download/system.json",
   "download": "AUTOMATIC",
   "background": "",
   "initiative": "1d20",
@@ -68,8 +78,17 @@
   },
   "flags": {
     "hotReload": {
-      "extensions": ["css", "html", "hbs", "json"],
-      "paths": ["uts.css", "templates", "lang"]
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "gram.css",
+        "templates",
+        "lang"
+      ]
     }
   }
 }

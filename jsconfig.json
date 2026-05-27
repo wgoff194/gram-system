@@ -3,13 +3,26 @@
     "module": "ES2022",
     "target": "ES2022",
     "paths": {
-      "@client/*": ["./foundry/client/*"],
-      "@common/*": ["./foundry/common/*"]
+      "@client/*": [
+        "./foundry/client/*"
+      ],
+      "@common/*": [
+        "./foundry/common/*"
+      ]
     },
   },
-  "exclude": ["node_modules", "**/node_modules/*"],
-  "include": ["uts.mjs", "foundry/client/client.mjs", "foundry/client/global.d.mts"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ],
+  "include": [
+    "uts.mjs",
+    "foundry/client/client.mjs",
+    "foundry/client/global.d.mts"
+  ],
   "typeAcquisition": {
-    "include": ["jquery"]
+    "include": [
+      "jquery"
+    ]
   }
 }

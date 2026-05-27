@@ -23,7 +23,7 @@ jobs:
           files: "system.json"
         env:
           flags.hotReload: false
-          version: ${{steps.get_version.outputs.version-without-v}}
+          version: ${{steps.get_version.outpgram.version-without-v}}
           download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/system.zip
 
       # Set up Node
@@ -42,11 +42,11 @@ jobs:
       - name: Build All
         run: |
           npm run build
-          mv --force public/uts.mjs uts.mjs
+          mv --force public/gram.mjs gram.mjs
 
       # Create zip file.
       - name: Create ZIP archive
-        run: zip -r ./system.zip system.json uts.mjs uts.css assets/ lang/ templates/
+        run: zip -r ./system.zip system.json gram.mjs gram.css assets/ lang/ templates/
 
       # Create a release for this specific version.
       - name: Update Release with Files

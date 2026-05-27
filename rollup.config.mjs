@@ -1,7 +1,7 @@
 export default {
-  input: "./uts.mjs",
+  input: "./gram.mjs",
   output: {
-    file: "./public/uts.mjs",
+    file: "./public/gram.mjs",
     format: "esm"
   }
 };
