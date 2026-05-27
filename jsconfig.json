@@ -16,7 +16,7 @@
     "**/node_modules/*"
   ],
   "include": [
-    "uts.mjs",
+    "gram.mjs",
     "foundry/client/client.mjs",
     "foundry/client/global.d.mts"
   ],
